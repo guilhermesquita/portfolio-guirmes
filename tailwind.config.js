@@ -8,6 +8,9 @@ export default {
     extend: {
       colors: {
         'gray-dark': '#2B2F30'
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
       }
     },
   },
