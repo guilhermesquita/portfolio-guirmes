@@ -1,7 +1,7 @@
 export const AboutMe = () => {
     return(
         <main className="w-2/3 
-        h-3/5 w-2/3 h-52"> 
+        h-3/5 w-2/3 h-96"> 
             <section>
             <h3 className="text-3xl font-montserrat 
                 font-semibold text-[#ACA7A7]">Quem sou eu</h3>

@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 // // import './App.css'
 import { AboutMe } from './components/aboutme/abotume'
+import { Experience } from './components/experience/Experience'
 import { Projects } from './components/projects/Projects'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       flex items-center'>
         <Projects />
         <AboutMe/>
+        <Experience/>
       </div>
   )
 }
