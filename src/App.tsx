@@ -2,15 +2,17 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // // import './App.css'
+import { AboutMe } from './components/aboutme/abotume'
 import { Projects } from './components/projects/Projects'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-      <div className='h-screen w-screen 
-      flex justify-center'>
+      <div className='flex flex-col h-screen w-screen 
+      flex items-center'>
         <Projects />
+        <AboutMe/>
       </div>
   )
 }
