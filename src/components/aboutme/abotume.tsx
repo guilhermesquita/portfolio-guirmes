@@ -10,9 +10,9 @@ export const AboutMe = () => {
                     <article>cd</article>
                     <article>
                         <p className="font-montserrat 
-                        font-semibold">GUILHERME <span className="text-[#FF00D6] 
+                        font-semibold text-6xl">GUILHERME <span className="text-[#FF00D6] 
                         font-montserrat font-semibold">MESQUITA</span></p>
-                        <p className="font-montserrat font-semibold">full-stack develop</p>
+                        <p className="font-montserrat font-semibold text-3xl">full-stack develop</p>
                     </article>
                 </article>
             </section>
