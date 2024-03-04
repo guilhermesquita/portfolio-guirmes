@@ -3,7 +3,8 @@
 // import viteLogo from '/vite.svg'
 // // import './App.css'
 import { AboutMe } from './components/aboutme/abotume'
-import { Experience } from './components/experience/Experience'
+// import { Experience } from './components/experience/Experience'
+import { Header } from './components/header'
 import { Projects } from './components/projects/Projects'
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
   return (
       <div className='flex flex-col h-screen w-screen 
       flex items-center'>
-        <Projects />
+        <Header/>
         <AboutMe/>
-        <Experience/>
+        <Projects />
+        {/* <Experience/> */}
       </div>
   )
 }
