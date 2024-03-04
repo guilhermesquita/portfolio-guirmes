@@ -1,16 +1,18 @@
+import { routes } from "../../routes"
 import { Content } from "./Content"
+import { NavMobile } from "./hambuger"
 
 export const Header = () => {
-    return(
-        <header className="pt-20">
-            <nav className="flex flex-row gap-20">
-                <Content text="meus projetos" link="#" target="_self"/>
-                <Content text="formação" link="#" target="_self"/>
-                <Content text="experiência" link="#" target="_self"/>
-                <Content text="contato" link="#" target="_self"/>
-                <Content text="github" link="https://github.com/guilhermesquita" target="_blank"/>
-                <Content text="linkedin" link="https://www.linkedin.com/in/guilhermesquita/" target="_blank"/>
+    return (
+        <header className="pt-1 lg:pt-20 w-50 lg:full w-4/3">
+            <nav className="flex flex-row gap-20 flex-wrap lg:flex hidden">
+                {routes.map(route => {
+                    return (
+                        <Content text={route.title} link={route.href} target={route.target} />
+                    )
+                })}
             </nav>
+            <NavMobile />
         </header>
     )
 } 
