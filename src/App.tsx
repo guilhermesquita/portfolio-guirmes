@@ -11,7 +11,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-      <div className='flex flex-col h-screen w-screen 
+      <div className='flex flex-col h-screen w-full 
       flex items-center'>
         <Header/>
         <AboutMe/>

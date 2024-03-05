@@ -1,23 +1,23 @@
 import photo from '../../assets/photo.png'
 
 export const AboutMe = () => {
-    return(
-        <main className="w-2/3 
-        h-3/5 w-2/3 h-96 mt-20"> 
-            <section>
+    return (
+        <main className="w-4/6
+        h-full mt-20 ">
             <h3 className="text-3xl font-montserrat 
-                font-semibold text-[#ACA7A7]">Quem sou eu</h3>
+                font-semibold text-[#ACA7A7] md:flex hidden">Quem sou eu</h3>
 
-                <article className="flex gap-20 justify-center bg-[#2B2F30] h-52 items-center rounded-3xl">
-                    <article>
-                        <img src={photo} className='rounded-full'/>
-                    </article>
-                    <article>
-                        <p className="font-montserrat 
-                        font-semibold text-6xl">GUILHERME <span className="text-[#FF00D6] 
+            <section className="flex gap-8 md:bg-[#2B2F30] 
+            h-64 items-center justify-center 
+            rounded-3xl md:shadow-2xl cursor-pointer
+            md:w-full w-5/6">
+                <img src={photo} className='rounded-full w-3/12 md:flex hidden'/>
+
+                <article>
+                    <p className="font-montserrat 
+                        font-semibold text-5xl">GUILHERME <span className="text-[#FF00D6] 
                         font-montserrat font-semibold">MESQUITA</span></p>
-                        <p className="font-montserrat font-semibold text-3xl">full-stack develop</p>
-                    </article>
+                    <p className="font-montserrat font-semibold md:text-3xl">full-stack develop</p>
                 </article>
             </section>
         </main>
