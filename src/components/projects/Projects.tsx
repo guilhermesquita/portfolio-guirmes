@@ -2,7 +2,7 @@ import { Card } from "./Card"
 
 export const Projects = () => {
     return (
-        <section id="proj" className="md:pt-20 md:w-2/3 w-full
+        <section id="proj" className="md:pt-60 md:w-2/3 w-full
         h-3/5 pt-56">
             <article className="flex flex-col 
         h-full">
