@@ -1,37 +1,15 @@
+import { Work } from "."
+
 export const Experience = () => {
     return (
-        <section className="w-2/3">
+        <section id='experience' className="w-2/3 pt-60">
             <h3 className="text-3xl font-montserrat 
-                font-semibold text-[#ACA7A7]">Experiência Profissional</h3>
-            <section className="flex flex-col gap-5">
-                <table border={1}>
-                    <thead>
-                        <tr>
-                            <th className="text-2xl font-montserrat font-semibold text-[#ACA7A7]">Nome</th>
-                            <th className="text-2xl font-montserrat font-semibold text-[#ACA7A7]">Data de Início</th>
-                            <th className="text-2xl font-montserrat font-semibold text-[#ACA7A7]">Data de Término</th>
-                            <th className="text-2xl font-montserrat font-semibold text-[#ACA7A7]">Descrição</th>
-                            <th className="text-2xl font-montserrat font-semibold text-[#ACA7A7]">Função</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Norte Tech</td>
-                            <td>svd</td>
-                            <td>svd</td>
-                            <td>svd</td>
-                            <td>svd</td>
-                        </tr>
-                        <tr>
-                            <td>Norte Tech</td>
-                            <td>svd</td>
-                            <td>svd</td>
-                            <td>svd</td>
-                            <td>svd</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                font-semibold text-[#ACA7A7] md:flex">Experiência</h3>
+            <article className="w-full bg-[#2d2e30] rounded-s-2xl">
+                <Work time="Jul 2021 - Mar 2022" title="Jovem Aprendiz Norte Tech" description="Programa de Jovem Aprendiz da Norte Tech para o desenvolvimento de aplicações WEB" />
+                <hr/>
+                <Work time="Mar 2023 - Fev 2024" title="Desenvolvedor FullStack - AquaApia" description="Desenvolvimento de sites, aplicativos e Api's com NodeJS, VueJs e SpringBoot." />
+            </article>
         </section>
     )
 }

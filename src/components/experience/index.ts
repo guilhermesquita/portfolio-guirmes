@@ -1,3 +1,2 @@
-export * from './Columns'
-export * from './List'
+export * from './Work'
 export * from './Experience'
