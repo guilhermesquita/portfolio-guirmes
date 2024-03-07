@@ -1,7 +1,7 @@
 export const routes = [
   {
     title: "Meus Projetos",
-    href: "#",
+    href: "#proj",
     target: "_self"
   },
   {
