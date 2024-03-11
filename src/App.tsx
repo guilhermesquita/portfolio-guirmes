@@ -1,4 +1,5 @@
 import { AboutMe } from './components/aboutme/abotume'
+import { Contact } from './components/contact/Contact'
 import { Experience } from './components/experience'
 import { Formation } from './components/formation/formation'
 import { Header } from './components/header'
@@ -13,6 +14,7 @@ function App() {
         <AboutMe/>
         <Projects />
         <Formation/>
+        <Contact/>
         <Experience/>
       </div>
   )

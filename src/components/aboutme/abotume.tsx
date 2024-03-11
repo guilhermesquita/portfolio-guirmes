@@ -1,5 +1,3 @@
-import photo from '../../assets/photo.png'
-
 export const AboutMe = () => {
     return (
         <main className="w-4/6
@@ -11,7 +9,7 @@ export const AboutMe = () => {
             h-64 items-center justify-center 
             rounded-3xl md:shadow-2xl cursor-pointer
             md:w-full w-5/6">
-                <img src={photo} className='rounded-full w-3/12 md:flex hidden'/>
+                <img src={'https://live.staticflickr.com/65535/53575377965_84c4b3a719_b.jpg'} className='rounded-full w-3/12 md:flex hidden'/>
 
                 <article>
                     <p className="font-montserrat 

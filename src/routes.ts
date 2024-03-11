@@ -16,7 +16,7 @@ export const routes = [
   },
   {
     title: "Contato",
-    href: "#",
+    href: "#contact",
     target: "_self"
   },
   {

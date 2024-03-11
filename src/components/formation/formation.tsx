@@ -2,7 +2,7 @@ import { Course } from "./course"
 
 export const Formation = () => {
     return (
-        <section id='form' className="w-2/3 pt-60">
+        <section id='form' className="w-2/3 pt-36">
             <h3 className="text-3xl font-montserrat 
                 font-semibold text-[#ACA7A7] md:flex">Formação</h3>
             <article className="w-full bg-[#2d2e30] rounded-s-2xl">

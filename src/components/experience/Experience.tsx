@@ -2,7 +2,7 @@ import { Work } from "."
 
 export const Experience = () => {
     return (
-        <section id='experience' className="w-2/3 pt-60">
+        <section id='experience' className="w-2/3 pt-36">
             <h3 className="text-3xl font-montserrat 
                 font-semibold text-[#ACA7A7] md:flex">Experiência</h3>
             <article className="w-full bg-[#2d2e30] rounded-s-2xl">
