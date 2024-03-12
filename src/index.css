@@ -6,6 +6,28 @@ html{
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-button {
+  background-color: #212326; 
+  /* Cor de fundo */
+}
+
+
+
+/* Estilizando a alça (thumb) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #35363a;
+  border-radius: 8px; /* Cor de fundo */
+}
+
+/* Estilizando a alça (thumb) quando houver hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Cor de fundo */
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

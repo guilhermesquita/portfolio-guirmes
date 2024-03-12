@@ -5,18 +5,13 @@ export const routes = [
     target: "_self"
   },
   {
-    title: "Formação",
-    href: "#form",
-    target: "_self"
-  },
-  {
-    title: "Experiência",
-    href: "#experience",
-    target: "_self"
-  },
-  {
     title: "Contato",
     href: "#contact",
+    target: "_self"
+  },
+  {
+    title: "Formação",
+    href: "#form",
     target: "_self"
   },
   {
