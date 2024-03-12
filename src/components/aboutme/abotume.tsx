@@ -1,7 +1,7 @@
 export const AboutMe = () => {
     return (
         <main className="w-4/6
-        h-full mt-20 ">
+        h-full mt-20 pb-56">
             <h3 className="text-3xl font-montserrat 
                 font-semibold text-[#ACA7A7] md:flex hidden">Quem sou eu</h3>
 
