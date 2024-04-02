@@ -18,6 +18,11 @@ export const AboutMe = () => {
                     <p className="font-montserrat font-semibold md:text-3xl">full-stack develop</p>
                 </article>
             </section>
+            <a className="absolute h-20 w-10 left-1/2 transform -translate-x-1/2 
+            bottom-3 border rounded-3xl pt-4 cursor-pointer border-[#fca903]" href="#services">
+                <section className="h-3 w-3 bg-white absolute opacity-80
+                content-none m-auto left-0 right-0 rounded-full	animate-bounce bg-[#fca903]"></section>
+            </a>
         </main>
     )
 }

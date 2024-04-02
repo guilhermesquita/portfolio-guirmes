@@ -11,6 +11,9 @@ export default {
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
+      },
+      animation:{
+        'bounce': 'bounce 3s linear infinite'
       }
     },
   },

@@ -4,9 +4,9 @@ import { faCode, faPenNib } from "@fortawesome/free-solid-svg-icons"
 
 export const MyServices = () => {
     return(
-        <section id='contact' className="bg-[#141517] flex flex-col justify-center items-center pt-36 gap-2 pb-10 w-full">
-            <h3 className="text-3xl font-montserrat w-4/6
-                font-semibold text-[#ACA7A7]">Meus Serviços</h3>
+        <section id='services' className="bg-[#141517] flex flex-col justify-center items-center pt-36 gap-2 pb-10 w-full">
+            <h3 className="text-3xl font-montserrat w-full
+                font-semibold text-[#ACA7A7] flex justify-center">Meus Serviços</h3>
 
             <article className="flex gap-20 w-full lg:flex-row flex-col flex-wrap justify-center md:flex items-center">
                     <Service title="UI DESIGN" description="Desenvolvimento de interfaces e protótipos para aplicações que tornam a expêriencia do usuário clara e confortável." img={faFigma}/>

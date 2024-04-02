@@ -1,5 +1,10 @@
 export const routes = [
   {
+    title: "Meus Serviços",
+    href: "#services",
+    target: "_self"
+  },
+  {
     title: "Meus Projetos",
     href: "#proj",
     target: "_self"
