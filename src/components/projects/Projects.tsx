@@ -11,8 +11,8 @@ export const Projects = () => {
                 <article className="flex flex-row flex-wrap md:flex-nowrap
                 gap-10 h-full w-full items-center justify-center md:w-2/3">
                     <Card name="HUB de startups" type="front-end" description="Aplicação empresarial de um HUB de startups "/>
-                    <Card name="Labeddit" link="https://documenter.getpostman.com/view/21445204/2s9YysE2hR" type="full-stack" description="trabalho de conclusão do bootcamp LABENU"/>
-                    <Card name="API Cloudflare" link="https://github.com/guilhermesquita/upload-cloudflare" type="back-end" description="API de Upload e Download com CLOUDFLARE"/>
+                    {/* <Card name="Labeddit" link="https://documenter.getpostman.com/view/21445204/2s9YysE2hR" type="full-stack" description="trabalho de conclusão do bootcamp LABENU"/> */}
+                    {/* <Card name="API Cloudflare" link="https://github.com/guilhermesquita/upload-cloudflare" type="back-end" description="API de Upload e Download com CLOUDFLARE"/> */}
                 </article>
 
         </section>
