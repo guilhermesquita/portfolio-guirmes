@@ -1,4 +1,4 @@
-import img from '../../assets/labeddit.png'
+import img from '../../assets/taskmine.png'
 
 interface IProps {
     name: string,
@@ -24,7 +24,7 @@ export const Card = (props: IProps) => {
         // rounded-3xl h-44 mt-6 hover:mt-4 
         // hover:ease-in-out duration-300
         // shadow-2xl hover:shadow-[#FF00D6] items-center cursor-pointer"
-        
+
         // >
 
         //     <article className="flex flex-col 
@@ -37,11 +37,14 @@ export const Card = (props: IProps) => {
 
         //     <p className="text-center font-montserrat text-sm p-2">{props.description}</p>
         // </a>
-        <section className='relative inline-block'>
-            <img src={img}/>
-            <section className='absolute top-0 left-0 w-full h-full text-center bg-[#50d71e] transition-opacity opacity-0 hover:opacity-65'>
-                <p>Texto sobre a imagem</p>
+        <section className='relative inline-block cursor-pointer'>
+            <section className='absolute top-0 left-0 w-full h-full text-center bg-[#434141] transition-opacity opacity-0 hover:opacity-80 font-montserrat font-semibold'>
+                <article className='w-full h-full flex flex-col items-center justify-evenly'>
+                    <h3 className='text-[#FF710B] text-2xl'>LABEDDIT</h3>
+                    <p className='text-[#FFFFFF] opacity-100'>O projeto em questão é uma plataforma completa de gerenciamento de recursos hídricos, que oferece funcionalidades abrangentes para monitoramento, análise e otimização do uso da água. Utilizando Node.js no backend, a equipe da AquaApia construiu uma infraestrutura robusta e escalável para lidar com grandes volumes de dados em tempo real.</p>
+                </article>
             </section>
+            <img src={img} className='max-h-96 max-w-full'/>
         </section>
     )
 }
