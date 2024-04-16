@@ -1,4 +1,4 @@
-import img from '../../assets/taskmine.png'
+// import img from '../../assets/taskmine.png'
 
 interface IProps {
     name: string,
