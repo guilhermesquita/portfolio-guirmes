@@ -6,9 +6,9 @@ interface IProps {
     link?: string
 }
 
-function notLinked() {
-    alert(`Projeto Privado!`)
-}
+// function notLinked() {
+//     alert(`Projeto Privado!`)
+// }
 
 export const Card = (props: IProps) => {
     return (
