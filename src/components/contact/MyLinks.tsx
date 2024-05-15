@@ -4,6 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export const MyLinks = () => {
     return (
         <div className="w-full flex gap-2 lg:w-full items-center justify-center md:justify-start">
+            <a href="https://wa.me/5592981489190" target="_blank" className="border-2 border-[#252629] 
+                       hover:border-[#FF00D6] duration-500  
+                       bg-[#0e1012] rounded-xl min-w-16 max-w-20 flex justify-center items-center">
+                <FontAwesomeIcon icon={faWhatsapp} color="#FF00D6" fontSize='3rem' className="p-2" />
+            </a>
             <a href="https://github.com/guilhermesquita" target="_blank" className="border-2 border-[#252629] 
                        hover:border-[#FF00D6] duration-500 min-w-16 max-w-20
                        bg-[#0e1012] rounded-xl"><FontAwesomeIcon icon={faGithub} color="#FF00D6" fontSize='3rem' className="p-2" />
@@ -25,12 +30,6 @@ export const MyLinks = () => {
                        hover:border-[#FF00D6] duration-500  
                        bg-[#0e1012] rounded-xl min-w-16 max-w-20 flex justify-center">
                 <FontAwesomeIcon icon={faInstagram} color="#FF00D6" fontSize='3rem' className="p-2" />
-            </a>
-
-            <a href="https://wa.me/5592981489190" target="_blank" className="border-2 border-[#252629] 
-                       hover:border-[#FF00D6] duration-500  
-                       bg-[#0e1012] rounded-xl min-w-16 max-w-20 flex justify-center items-center">
-                <FontAwesomeIcon icon={faWhatsapp} color="#FF00D6" fontSize='3rem' className="p-2" />
             </a>
         </div>
     )

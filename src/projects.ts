@@ -1,7 +1,7 @@
 export const ProjectsList = [
     {
         name: "Labeddit",
-        description: "rojeto de finalização de curso da instuição Labenu, feito em ReactJS e NodeJs. Com boas práticas de TDD, Clean Code e Clean Architecture. O Projeto consiste no desenvolvimento de um fórum virtual à exemplo do Reddit.",
+        description: "Projeto de finalização de curso da instuição Labenu, feito em ReactJS e NodeJs. Com boas práticas de TDD, Clean Code e Clean Architecture. O Projeto consiste no desenvolvimento de um fórum virtual à exemplo do Reddit.",
         link: "//live.staticflickr.com/65535/53657569417_a03733bbbf_b.jpg"
     },
     {
@@ -13,5 +13,10 @@ export const ProjectsList = [
         name: "Skepfy",
         description: "O projeto em questão é uma plataforma completa de gerenciamento de recursos hídricos, que oferece funcionalidades abrangentes para monitoramento, análise e otimização do uso da água. Utilizando Node.js no backend, a equipe da AquaApia construiu uma infraestrutura robusta e escalável para lidar com grandes volumes de dados em tempo real.",
         link: "//live.staticflickr.com/65535/53658841329_03ce69a458_b.jpg"
+    },
+    {
+        name: "Landing Page Appoly Brasil",
+        description: "Desenvolvimento da Landing Page para empresa Appoly.",
+        link: "//live.staticflickr.com/65535/53723679691_9bc50a4dee_h.jpg"
     }
 ]
