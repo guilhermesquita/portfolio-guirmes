@@ -31,7 +31,7 @@ export const AboutMe = () => {
             </span>
           </p>
           <p className="font-montserrat font-semibold md:text-3xl">
-            full-stack develop
+            full-stack developer
           </p>
         </article>
       </section>

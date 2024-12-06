@@ -1,22 +1,29 @@
 export const ProjectsList = [
-    {
-        name: "Labeddit",
-        description: "Projeto de finalização de curso da instuição Labenu, feito em ReactJS e NodeJs. Com boas práticas de TDD, Clean Code e Clean Architecture. O Projeto consiste no desenvolvimento de um fórum virtual à exemplo do Reddit.",
-        link: "//live.staticflickr.com/65535/53657569417_a03733bbbf_b.jpg"
-    },
-    {
-        name: "Taskmine",
-        description: "Projeto Fullstack Pessoal para organização de tarefas, uma espécie de To-do List. O objetivo deste projeto foi criar uma aplicação web que permita aos usuários criar, visualizar, editar e excluir tarefas. Uma ferramenta simples e eficaz para ajudar as pessoas a gerenciar suas listas de afazeres de forma organizada e intuitiva.",
-        link: "//live.staticflickr.com/65535/53658434791_a887d48bbf_b.jpg"
-    },
-    {
-        name: "Skepfy",
-        description: "O projeto em questão é uma plataforma completa de gerenciamento de recursos hídricos, que oferece funcionalidades abrangentes para monitoramento, análise e otimização do uso da água. Utilizando Node.js no backend, a equipe da AquaApia construiu uma infraestrutura robusta e escalável para lidar com grandes volumes de dados em tempo real.",
-        link: "//live.staticflickr.com/65535/53658841329_03ce69a458_b.jpg"
-    },
-    {
-        name: "Landing Page Appoly Brasil",
-        description: "Desenvolvimento da Landing Page para empresa Appoly.",
-        link: "//live.staticflickr.com/65535/53723679691_9bc50a4dee_h.jpg"
-    }
-]
+  {
+    name: "Labeddit",
+    description:
+      "Projeto de finalização de curso da instuição Labenu, feito em ReactJS e NodeJs. Com boas práticas de TDD, Clean Code e Clean Architecture. O Projeto consiste no desenvolvimento de um fórum virtual à exemplo do Reddit.",
+    link: "https://labeddit-front-end-guilhermesquitas-projects.vercel.app",
+    image: "https://live.staticflickr.com/65535/53657569417_1104b16f5d_b.jpg",
+  },
+  {
+    name: "Amazon Shark",
+    description:
+      "Plataforma que gera conexões entre startups, investidores e conselheiros.",
+    link: "https://amazonsharkoficial.com",
+    image: "https://live.staticflickr.com/65535/53658434791_0341cb87e9_b.jpg",
+  },
+  {
+    name: "FlowAI",
+    description:
+      "Projeto de análise de gastos e com integração com a IA da OpenAi",
+    link: "https://flow-ai-delta.vercel.app",
+    image: "https://live.staticflickr.com/65535/53658841329_0309058a70_b.jpg",
+  },
+  //   {
+  //     name: "Landing Page Appoly Brasil",
+  //     description: "Desenvolvimento da Landing Page para empresa Appoly.",
+  //     link: "//live.staticflickr.com/65535/53723679691_9bc50a4dee_h.jpg",
+  //     image: "https://live.staticflickr.com/65535/53657569417_1104b16f5d_b.jpg",
+  //   },
+];

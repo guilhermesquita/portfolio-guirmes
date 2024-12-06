@@ -5,8 +5,8 @@ export const Projects = () => {
   return (
     <section
       id="proj"
-      className="md:pt-10  w-full
-        h-3/5 pt-20 flex justify-center gap-10 flex-col items-center"
+      className=" w-full
+        h-3/5 pt-10 flex justify-center gap-10 flex-col items-center"
     >
       <h3
         className="text-3xl font-montserrat 
@@ -24,6 +24,7 @@ export const Projects = () => {
             <Card
               name={project.name}
               link={project.link}
+              image={project.image}
               description={project.description}
             />
           );

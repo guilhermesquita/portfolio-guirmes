@@ -1,19 +1,50 @@
 interface IProps {
-    name: string,
-    description: string,
-    link?: string
+  name: string;
+  description: string;
+  image: string;
+  link?: string;
 }
 
 export const Card = (props: IProps) => {
-    return (
-        <section className='relative inline-block cursor-pointer lg:w-4/12'>
-            <section className='absolute top-0 left-0 w-full h-full text-center bg-[#434141] transition-opacity opacity-0 hover:opacity-80 font-montserrat font-semibold'>
-                <article className='w-full h-full flex flex-col items-center justify-evenly'>
-                    <h3 className='text-[#FF710B] text-xl'>{props.name.toUpperCase()}</h3>
-                    <p className='text-[#FFFFFF] opacity-100 text-lg'>{props.description}</p>
-                </article>
-            </section>
-            <img src={props.link} className='max-h-96 max-w-full'/>
-        </section>
-    )
-}
+  return (
+    <>
+      <div className="max-w-sm h-[550px] overflow-auto border rounded-lg shadow bg-[#2B2F30] border-[#393e40] hover:border-[#FF00D6] duration-500">
+        <a href={props.link} target="_blank">
+          <img className="rounded-t-lg" src={props.image} alt="" />
+        </a>
+        <div className="p-5">
+          <a href={props.link} target="_blank">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {props.name}
+            </h5>
+          </a>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            {props.description}
+          </p>
+          <a
+            href={props.link}
+            target="_blank"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Ver Projeto
+            <svg
+              className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </>
+  );
+};
