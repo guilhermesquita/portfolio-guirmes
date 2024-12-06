@@ -11,7 +11,7 @@ export const ProjectsList = [
     description:
       "Plataforma que gera conexões entre startups, investidores e conselheiros.",
     link: "https://amazonsharkoficial.com",
-    image: "https://live.staticflickr.com/65535/53658434791_0341cb87e9_b.jpg",
+    image: "https://live.staticflickr.com/65535/53658434791_9d59ff0269_c.jpg",
   },
   {
     name: "FlowAI",
